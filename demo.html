@@ -5,9 +5,9 @@
 <title>通用slider</title>
 <meta name="description" content=" 内容介绍不超过100个中文">
 <meta name="keywords" content=" 内容相关关键词3-5个">
-<link href="../css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/base.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <style type="text/css">
 
 .professional-cycle { position:relative; width: 947px; height: 399px; margin-bottom:20px; overflow: hidden;}
@@ -15,8 +15,8 @@
 .professional-cycle .dots{ position:absolute; left:18px; bottom:15px; width:300px;}
 .professional-cycle .dots span{ float:left; width:26px; height:5px; margin-right:6px; background:#aaa;}
 .professional-cycle .dots span.current{ background:#fff;}
-.bx-prev { position: absolute; left: -2px; top: 0px; display: block; width: 100px; height: 417px; background: url(../images/bg_project-cycle_nav.gif) no-repeat 0 182px; z-index: 2000; text-indent: -999em;}
-.bx-next { position: absolute; right: -2px; top: 0px; display: block; width: 100px; height: 417px; background: url(../images/bg_project-cycle_nav.gif) no-repeat -100px 182px; z-index: 2000; text-indent: -999em;}
+.bx-prev { position: absolute; left: -2px; top: 0px; display: block; width: 100px; height: 417px; background: url(images/bg_project-cycle_nav.gif) no-repeat 0 182px; z-index: 2000; text-indent: -999em;}
+.bx-next { position: absolute; right: -2px; top: 0px; display: block; width: 100px; height: 417px; background: url(images/bg_project-cycle_nav.gif) no-repeat -100px 182px; z-index: 2000; text-indent: -999em;}
 .bx-prev:hover { background-position: 0 -238px;}
 .bx-next:hover { background-position: -100px -238px;}
 
@@ -33,10 +33,10 @@
     
     <div class="professional-cycle" id="professional-cycle">
         <ul class="slides_control">
-            <li><img src="../images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
-            <li><img src="../images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
-            <li><img src="../images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
-            <li><img src="../images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
+            <li><img src="images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
+            <li><img src="images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
+            <li><img src="images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
+            <li><img src="images/pic_professional_02.jpg" width="947" height="399" alt="" /></li>
         </ul>
         <a href="javascript:;" onclick="professionCycle.goLeft()" class="bx-prev"></a>
         <a href="javascript:;" onclick="professionCycle.goRight()" class="bx-next"></a>
@@ -55,7 +55,7 @@
 </div>
 
 
-<script src="../js/jw_nice_slider.js" ></script>
+<script src="js/jw_nice_slider.js" ></script>
 <script type="text/javascript">
 function profess_change_current(idx){
 	$("#professional-cycle-dots span").removeClass("current").eq(idx).addClass("current");
